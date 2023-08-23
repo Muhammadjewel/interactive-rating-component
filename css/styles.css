@@ -281,3 +281,63 @@ only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
 
 }
+
+@media only screen and (max-width: 500px) {
+  body {
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+
+  .star-rating__control {
+    width: 42px;
+    height: 42px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .rating-component {
+    padding: 24px;
+    min-height: 360px;
+  }
+
+  .rating-component__star-box {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 16px;
+  }
+
+  .rating-component__star-icon {
+    width: 14px;
+    height: 13px;
+  }
+
+  .rating-component__heading {
+    margin-bottom: 10px;
+    font-size: 24px;
+  }
+
+  .rating-component__form-submit {
+    margin-top: 24px;
+  }
+
+  .rating-component__thank-you-img {
+    width: 144px;
+    height: 96px;
+    margin-bottom: 24px;
+  }
+
+  .rating-component__result-msg {
+    padding: 5px 12px;
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  body {
+    padding: 12px;
+  }
+}
