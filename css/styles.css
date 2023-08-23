@@ -186,6 +186,7 @@ select:-webkit-autofill:focus {
 
 /* RATING-COMPONENT */
 .rating-component {
+  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   width: 100%;
