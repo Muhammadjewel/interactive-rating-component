@@ -1,7 +1,7 @@
 // Set global variable for rating result
 let ratingValue;
 
-const elRatingComponentForm = document.querySelector('.rating-component__form');
+const elRatingComponentForm = document.querySelector('#rating-component-form');
 const elRatingComponentResultLabel = document.querySelector('.rating-component__result-label');
 
 // When there's a form
