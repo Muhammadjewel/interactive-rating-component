@@ -1,3 +1,17 @@
+/* CUSTOM PROPS */
+:root {
+  /* Colors */
+  --orange: #fc7614;
+  --dark-blue: #262e38;
+  --very-dark-blue: #131518;
+  --light-grey: #969fad;
+  --medium-gray: #7c8798;
+
+  /* Gradients */
+  --black-gradient: radial-gradient(98.96% 98.96% at 50.00% 0%, #232a34 0%, #181e27 100%);
+}
+
+
 /* GLOBAL */
 html {
   box-sizing: border-box;
